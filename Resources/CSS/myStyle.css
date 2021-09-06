@@ -1,0 +1,114 @@
+body{
+    background-color: cadetblue;
+}
+/***************** Start The Style Of Navbar **************/
+#ourNavbar{
+    transition: all 2s linear;
+}
+#NavbarLinks
+{
+    padding-bottom: 15px;
+}
+#NavbarLinks  li a{
+    color: black;
+}
+#NavbarLinks li a.activeLink {
+    color: #3face4;
+}
+.logo
+{
+    position: absolute;
+    top: -20px;
+    right: -50px;
+    border: 3px outset #fff;
+    border-radius: 11px;
+    background-color: #fff;
+    z-index: 99;
+}
+/***************** The Style of Slider Section **************/
+h3.slideHeader{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.SliderImg{
+    opacity: 0.4;
+}
+/****************** The Style of more info section ******************/
+#MoreInfoSection{
+    background-image: url('../Images/Main Page/BG/mainPage_moreInfo_BG.JPEG');
+   
+}
+
+#Footer{
+    background-color: #ADD7ED;
+}
+div.MainPageFooter{
+    background-image: url('../Images/Main Page/BG/footerinMainpage.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#Footer ul li{
+    line-height: 24px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    list-style-type: none;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+#Footer h6{
+    font-size: 20px;
+    color :#000;
+}
+#Footer ul li > a{
+    color :#000;
+    transition: color 0.5s;
+}
+#Footer ul li > a:hover{
+    color :#fff;
+    text-decoration: none;
+}
+/*Go to top of page*/
+#top-page-arrow {
+    width: 50px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    cursor: pointer;
+    color: white;
+    display: none;
+    border-radius: 50%;
+  }
+/************************************************************************/
+/***********************    Hospital Page *******************************/
+/************************************************************************/
+/*********/
+#HospitalNavbar{
+    border-radius: 0px 0px 20px 20px;
+}
+/*-----------------------News Page------------------------*/
+#News{
+    background-image: url('../Images/HospitalPage/BG/NewsSectionBG.JPEG');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#News h2{
+    color: #3face4;
+    margin: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 25px;
+    padding-right: 37px;
+    padding-top: 25px;
+}
+.NewsCards
+{
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 20px;
+}
+.NewsImage{
+    border-radius: 20px 0px 0px 20px;
+    min-width: 100%;
+}
